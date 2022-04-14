@@ -152,7 +152,7 @@ animation: shadow 4s ease-in-out infinite;
 
 #categoryGrid {
     margin-top: 10px 10px;
-    background-color: #d8b9c3;
+    background-color: #cfc1cf;
     display: grid;
 align-items: center;
 background-size:400px 400px;
@@ -183,7 +183,7 @@ background-size:400px 400px;
     align-content: center;
     justify-content: center;
     width: 700px;
-    height: 100%;
+    height: 90%;
 margin-left: 100px;
 margin-top: 50px;
 background-image: url("../imagges/travel.jpg"); 
@@ -221,7 +221,7 @@ grid-area: rightmiddle;
    justify-content: center;
    
     width: 700px;
-    height: 100%;
+    height: 90%;
 margin-top: 50px;
 background-image: url("../imagges/fruit.jpg"); 
 border-radius: 20px;
@@ -231,7 +231,7 @@ border-radius: 20px;
   #leftbottom {
     grid-area: leftbottom;
     width: 700px;
-    height: 100%;
+    height: 90%;
     margin-left: 100px;
 margin-top: 50px;
 background-image: url("../imagges/HEALTH.png"); 
@@ -266,7 +266,7 @@ border-radius: 20px;
     grid-area: rightbottom2;
     background-image: url("../imagges/MOCK.PNG"); 
     width: 700px;
-    height:100%;
+    height:90%;
   
     border-radius: 20px;
     border-color: white;
