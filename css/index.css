@@ -117,7 +117,7 @@ justify-content: center;
 position: relative;
 display: flex;
 height: 400px;
-margin-right: 400px;
+margin-right: 40px;
 padding-top: 100px;
 animation: loli 4s ease-in-out infinite;
 }
@@ -182,7 +182,7 @@ background: size 100%;
     grid-area: lefttop;
     align-content: center;
     justify-content: center;
-    width: 700px;
+    width: 80%;
     height: 90%;
 margin-left: 100px;
 margin-top: 50px;
@@ -198,7 +198,8 @@ align-items: center;
   text-align: center;
  margin-right: 100px;
   font-size: 24px;
-  width: 600px;
+  width: 80%;
+  height: 60%;
 padding: 50px;
   }
   
@@ -211,7 +212,8 @@ padding: 50px;
    margin-left: 100px;
    margin-top: 50px;
     font-size: 24px;
-    width: 600px;
+    width: 80%;
+    height: 60%;
     text-align: center;
   }
 
@@ -220,7 +222,7 @@ grid-area: rightmiddle;
    align-items: center;
    justify-content: center;
    
-    width: 700px;
+    width: 80%;
     height: 90%;
 margin-top: 50px;
 background-image: url("../imagges/fruit.jpg"); 
@@ -230,7 +232,7 @@ border-radius: 20px;
   
   #leftbottom {
     grid-area: leftbottom;
-    width: 700px;
+    width: 80%;
     height: 90%;
     margin-left: 100px;
 margin-top: 50px;
@@ -247,7 +249,8 @@ border-radius: 20px;
     text-align: center;
    margin-right: 130px;
     font-size: 24px;
-    width: 600px;
+    width: 80%;
+    height: 60%;
     padding: 50px;
   }
 
@@ -258,14 +261,15 @@ border-radius: 20px;
    text-align: center;
    margin-left: 100px;
     font-size: 24px;
-    width: 600px;
+    width: 80%;
+    height: 60%;
     padding: 50px;
   }
   
   #rightbottom2 {
     grid-area: rightbottom2;
     background-image: url("../imagges/MOCK.PNG"); 
-    width: 700px;
+    width: 80%;
     height:90%;
   
     border-radius: 20px;
@@ -297,8 +301,8 @@ font-size: large;
 }
   
 .CONTAINER{
-width: 600px;
-margin-left: 500px;
+
+justify-items: center;
 }
 
 .footerleft{
@@ -307,11 +311,6 @@ margin-left: 500px;
 }
 
 
-.footerright{
-
-  padding-left: 500px;
-  padding-right: 500px;
-}
 .footerright a{
     display: flex;
    justify-content: center;
@@ -367,17 +366,35 @@ width: 100%;
 padding: 10px;
 border: 1px solid black;
 }
-.container{
+.container2{
   display: flex;
   width: 100%;
   height: 700px;
   justify-content: center;
 padding: 300px;
-border: 1px solid black;
 font-size: medium;
+}
+.infoleft{
+ padding: 0%;
 }
 
 .inforight{
   display: flex;
   margin-bottom: 20px;
+ 
+}
+
+@media only screen and (max-width: 600px) {
+  #about {
+    background-color: #363062;
+    color: #d8b9c3;
+    
+  }
+
+  .container2{
+    display: flex;
+  width: 100%;
+  height: 1000px;
+font-size: medium;
+  }
 }
