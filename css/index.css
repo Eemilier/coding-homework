@@ -5,7 +5,7 @@ box-sizing: border-box;
 
 }
 
-.preload{
+/**.preload{
   position: fixed;
   top: 0;
   width: 100%;
@@ -34,7 +34,7 @@ transition: all 0.5s ease-in-out;
   }
   100% {
     transform: rotate(720deg);
-  }}
+  }}**/
 
 
 
@@ -117,8 +117,36 @@ justify-content: center;
 position: relative;
 display: flex;
 height: 400px;
-margin-right: 200px;
+margin-right: 400px;
 padding-top: 100px;
+animation: loli 4s ease-in-out infinite;
+}
+
+@keyframes loli {
+  0%, 100%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-80px);
+  }
+  
+}
+
+.shadow{
+background-color: rgba(0, 0, 0, 0.15);
+width: 150px;
+height: 40px;
+border-radius: 50%;
+position: absolute;
+margin-left: 68px;
+filter: blur(1px);
+animation: shadow 4s ease-in-out infinite;
+}
+
+@keyframes shadow {
+0%, 100%{
+  transform: scale(0.5);
+}
 }
 
 
