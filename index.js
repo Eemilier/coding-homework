@@ -1,4 +1,3 @@
-
 function fade() {
     $('.preload').fadeOut("slow");
     }
